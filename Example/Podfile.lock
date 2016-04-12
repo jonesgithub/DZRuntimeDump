@@ -1,0 +1,21 @@
+PODS:
+  - DZRuntimeDump (0.1.0)
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DZRuntimeDump (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DZRuntimeDump:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DZRuntimeDump: e00863aa89dd08fbdf1b8478a54706f7af218711
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+
+COCOAPODS: 0.39.0
