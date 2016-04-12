@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DZRuntimeDump_Example', :exclusive => true do
+  pod 'DZRuntimeDump', :path => '../'
+end
+
+target 'DZRuntimeDump_Tests', :exclusive => true do
+  pod 'DZRuntimeDump', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
